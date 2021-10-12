@@ -40,15 +40,15 @@ lalu klik next terus seperti gambar dibawah, sampai ke menu install
 ![Install git 16](https://user-images.githubusercontent.com/92351461/136926696-b1ea483c-9127-46fb-a307-228b2ce5bd27.PNG)
 
 
-setelah proses instalasi selesai, saatnya membuat akun jika belum memiliki akun, dan silahkan masuk ke akun github anda, jika sebelumnya telah memiliki akun github
+# 3. setelah proses instalasi selesai, saatnya membuat akun jika belum memiliki akun, dan silahkan masuk ke akun github anda, jika sebelumnya telah memiliki akun github
 
 ![login git 1](https://user-images.githubusercontent.com/92351461/136927491-9770276a-b0dc-43f3-8c5b-8491df9db141.PNG)
 
-setelah berhasil login di github, saatnya anda membuat file repository baru, seperti gambar dibawah ini
+# 4. setelah berhasil login di github, saatnya anda membuat file repository baru, seperti gambar dibawah ini
 
 ![login git 2](https://user-images.githubusercontent.com/92351461/136927758-6f562ff0-0350-467a-a569-5947586264c9.PNG)
 
-isikan repository name, dan pilih repository untuk jadi file public atau private, saya buat public disini, setelah itu centang pilihan add a readme file, lalu klik create repository
+# 5. isikan repository name, dan pilih repository untuk jadi file public atau private, saya buat public disini, setelah itu centang pilihan add a readme file, lalu klik create repository
 
 ![login git 3](https://user-images.githubusercontent.com/92351461/136928161-a9a918b6-ab89-407d-a531-81bbb05b7d99.png)
 
