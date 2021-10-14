@@ -3,7 +3,7 @@
 # 1. Unduh Git
 untuk menginstall Git, anda perlu mengunduh file-nya terlebih dahulu di situs resminya. karena saya pakai git-scm, linknya adalah https://git-scm.com/
 # 2. Install Git
-setelah selesai mengundul file Git, silahkan install aplikasi nya, caranya seperti dibawah ini
+setelah selesai mengunduh file Git, silahkan install aplikasi nya, caranya seperti dibawah ini
 
 ![Install git 1](https://user-images.githubusercontent.com/92351461/136926471-6ddf0c29-7cab-4f4c-a0c6-a6b67b5678e7.PNG)
 
