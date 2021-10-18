@@ -53,3 +53,47 @@ lalu klik next terus seperti gambar dibawah, sampai ke menu install
 ![login git 3](https://user-images.githubusercontent.com/92351461/136928161-a9a918b6-ab89-407d-a531-81bbb05b7d99.png)
 
 cek kembali file repository anda, jika sudah terdapat file repository yang anda buat tadi, maka pembuatan repository berhasil. sekian terima kasih.
+
+# Cara Menggunakan Git
+
+# Pada saat pertama kali menggunakan Git, kita perlu melakukan konfigurasi username dan email yang telah kita daftarkan di github, dengan cara berikut ini:
+
+git config --global user.name "username"
+git config --global user.name "email"
+
+![git 1](https://user-images.githubusercontent.com/92351461/137724853-17b669f6-89a3-4db0-bf78-2dde5ef940da.PNG)
+
+setelah itu, jalankan perintah git init untuk membuat repository local, seperti gambar di bawah, karena saya sudah memiliki repository, maka tampilannya akan seperti ini
+
+git init
+![git 2](https://user-images.githubusercontent.com/92351461/137725076-4adc51f4-dddd-4628-9e87-615e4b23b65d.PNG)
+
+untuk membuat file, dapat menggunakan Text Editor, lalu menyimpan file pada repository. saya membuat file readme.md dengan perintah berikut
+
+echo "#latihanGit" >> readme.md
+![git 3](https://user-images.githubusercontent.com/92351461/137725441-7ab9a396-57e5-4d87-b85e-e625f470e1c7.PNG)
+
+untuk menambahkan file yang telah kita buat, gunakan perintah git add (nama file), tanpa tanda dalam kurung, seperti contoh dibawah, saya menambahkan file readme.md, dan jika terjadi kesalahan ketik, seperti readme.md tetapi kita ketik raedme.md, maka akan muncul informasi (fatal: pathspech 'raedme.md' did not match any files (karena direktori tidak ada file yang bernama tersebut
+
+git add readme.md
+![git 4](https://user-images.githubusercontent.com/92351461/137726124-9c3de82b-d6e4-48c1-9517-887a154f0902.PNG)
+
+setelah itu, untuk menyimpan perubahan yang ada ke dalam database repository lokal, gunakan perintah git commit -m "nama project", tulis dengan nama komentar setiap kita men-commit projek, saya menambahkan project dengan nama menambahkan project
+
+git commit -m "menambahkan project"
+![git 5](https://user-images.githubusercontent.com/92351461/137726647-d7e8f850-8284-4efd-8e30-27663ffbbfb0.PNG)
+
+untuk menyimpan setiap perubahan pada repository lokal, kita gunakan perintah git remote add origin diikuti dengan url file repository kita di github, seperti dibawah ini, saya membuat repository github dengan nama file LatihanVCS
+
+untuk mendapatkan link repository di github, kita dapat masuk ke akun github, dan klik repository yang telah kita buat, lalu klik code, dan link tersebut dapat kita paste kan seperti ini
+![git 6](https://user-images.githubusercontent.com/92351461/137727435-114d52d0-14f1-4907-ae5a-ae18a791774b.PNG)
+
+git remote add origin https://github/rezansap/LatihanVCS.git
+![git 7](https://user-images.githubusercontent.com/92351461/137727082-a69518c9-dad9-4fcb-9e5a-da7bdd2a3983.PNG)
+
+dan untuk mengirim perubahan pada repository lokal ke server, gunakan perintah git push, perintah ini akan meminta kita untuk memasukan username dan password pada akun github kita
+
+git push -u origin master
+![git 8](https://user-images.githubusercontent.com/92351461/137728559-5e3859f5-e53e-4db1-8fd8-b6848d0a1fb4.PNG)
+
+Selesai, sekian dan terima kasih
